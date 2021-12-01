@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'dart:convert';
+import 'package:path/path.dart' as p;
 
 Future<void> main(List<String> args) async {
   int? previous = null;
@@ -10,7 +11,7 @@ Future<void> main(List<String> args) async {
   int? c = null;
   int counter2 = 0;
 
-  Stream<String> lines = new File("input")
+  Stream<String> lines = new File(p.relative("../input"))
       .openRead()
       .map(utf8.decode)
       .transform(new LineSplitter());
