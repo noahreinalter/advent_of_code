@@ -41,5 +41,5 @@ Future<void> main(List<String> args) async {
 
   print("Depth2: $depth2");
   print("Aim: $aim");
-  print("Aufgabe 1: " + (horizontalPosition * depth2).toString());
+  print("Aufgabe 2: " + (horizontalPosition * depth2).toString());
 }
