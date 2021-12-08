@@ -1,6 +1,5 @@
 import 'dart:io';
 import 'dart:convert';
-import 'dart:math';
 import 'package:path/path.dart' as p;
 
 Future<void> main(List<String> args) async {
