@@ -1,0 +1,6 @@
+name: day11
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+dependencies: 
+  path: ^1.8.0
